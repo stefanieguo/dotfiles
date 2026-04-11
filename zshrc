@@ -73,7 +73,7 @@ zstyle ':omz:update' frequency 13
 # ------------------------------
 # Enable lazy loading for the nvm plugin
 zstyle ':omz:plugins:nvm' lazy yes
-plugins=(git nvm)
+plugins=(git nvm zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -137,8 +137,7 @@ else
   fi
 fi
 
-# zsh-syntax-highlighting
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 # uncomment for profiling
 #zprof
